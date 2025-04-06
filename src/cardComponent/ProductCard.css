@@ -1,0 +1,54 @@
+
+.card-container {
+    width: 280px;
+    height: 425px;
+    margin: 4rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: #9e7d5a 8px 0px 18px 2px inset;
+    background-color: #d3bfa0;
+  }
+  
+  .card-img {
+    width: 280px;
+    height: 248px;
+    border-radius: 12px 12px 0px 0px;
+    margin-bottom: 4px;
+  }
+  
+  .card-btn {
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #758d80;
+    height: 28px;
+    width: 95px;
+    margin: 14px 0px 0px 0px;
+    border: none;
+    transition: .3s;
+  }
+
+  .card-btn:hover {
+    background-color: #cde0ab;
+  }
+  
+  h3 {
+    padding: 6px;
+    margin: 0;
+  }
+
+  .card-para {
+    text-overflow: hidden;
+    overflow: hidden;
+  }
+  
+  .card-para-container {
+    margin: 14px 0px 0px 0px;
+    width: 270px;
+    height: 55px;
+    overflow: hidden;
+    padding: 0px 10px 0px 25px;
+  }
+
+  .product {
+    row-gap: 0px;
+  }

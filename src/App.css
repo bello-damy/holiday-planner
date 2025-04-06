@@ -1,0 +1,16 @@
+.App{
+  background-color: #d1dad6;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}

@@ -1,0 +1,12 @@
+.banner-container {
+  height: 220px;
+  background-color: #d3bfa0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  border: 2px solid;
+  margin: 0 0.5px;
+}
