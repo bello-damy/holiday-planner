@@ -18,12 +18,11 @@ const Footer = () => {
           </div>
           {/* column2 */}
           <div>
-            <h4>STUFF</h4>
+            <h4>VISITS</h4>
             <br />
             <ul>
-              <li>Dami names</li>
-              <li>Wonder man</li>
-              <li>songs forms</li>
+              <li>Best locations</li>
+              <li>Most viewed</li>
             </ul>
           </div>
           {/* column3 */}
