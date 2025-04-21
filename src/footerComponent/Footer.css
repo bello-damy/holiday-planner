@@ -1,0 +1,17 @@
+.footer-row {
+  padding: 30px 0px 14px 30px;
+  display: flex;
+  background-color: #758d80;
+}
+
+.row {
+  padding: 8px 0px 8px 30px;
+  display: flex;
+  background-color: #758d80;
+}
+
+.footer-row ul li{
+  margin: 12px 30px 12px 0px;
+  padding: 1px 1px 4px 0px;
+  list-style-type: none;
+}
