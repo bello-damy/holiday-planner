@@ -1,17 +1,6 @@
-.form-body {
-  background-color: #a9af9f;
-  text-align: center;
-  border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  padding: 10px 20px;
-  transition: transform 0.2s;
-  width: 500px;
-  margin: auto;
-  margin: 20px;
-}
 
 .form-container {
-  background-color: #fff;
+  background-color: #a9af9f;
   text-align: center;
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
