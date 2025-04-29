@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home, About, Services, Contact } from "./pages/index";
 import Banner from './Banner';
 import Footer from './footerComponent/Footer';
-import Form from "./registrationForm/Form";
+import Form from './registrationForm/Form'
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
         <Route path="/about" element={<><About /></>} />
         <Route path="/services" element={<><Services /></>} />
         <Route path="/contact" element={<><Contact /></>} />
+        <Route path="/form" element={<><Form /></>} />
       </Routes>
       <Footer />
-      <Form />
     </div>
   );
 }
