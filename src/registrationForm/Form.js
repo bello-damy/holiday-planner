@@ -11,9 +11,7 @@ const Form = () => {
     gender: '',
     contact: '',
     destination: '',
-    resume: '',
-    url: '',
-    about: ''
+    info: ''
   })
 
   const handleChange = (e) => {
@@ -84,36 +82,20 @@ const Form = () => {
         <label htmlFor="destination">Destination</label>
         <select name="destination" id="destination" onChange={(e) => handleChange(e)}>
           <option value="Newcastle">Newcastle</option>
-          <option value="London">london</option>
+          <option value="London">London</option>
           <option value="Dubai">Dubai</option>
           <option value="NewYork">New York</option>
           <option value="Tokyo">Tokyo</option>
           <option value="Berlin">Berlin</option>
         </select>
 
-        <label htmlFor="resume">Resume</label>
-        <input
-          type="file"
-          placeholder="Select Resume"
-          name="resume"
-          onChange={(e) => handleChange(e)}
-        />
-
-        <label htmlFor="url">URL</label>
-        <input
-          type="text"
-          placeholder="Enter url"
-          name="url"
-          onChange={(e) => handleChange(e)}
-        />
-
-        <label htmlFor="about">About</label>
+        <label htmlFor="info">Additional Information</label>
         <textarea
-          name="about"
-          id="about"
+          name="info"
+          id="info"
           cols="30"
           rows="10"
-          placeholder="Enter description"
+          placeholder="Enter any additional information"
           onChange={(e) => handleChange(e)}>
         </textarea>
 
