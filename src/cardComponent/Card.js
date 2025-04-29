@@ -8,46 +8,46 @@ import tokyo from "./tokyo.jpg"
 import berlin from "./berlin.jpg"
 
 const Card = () => {
-  return ( 
+  return (
     <div className='product'>
-      <Productcard 
-        image = {newcastle}
-        name = "Newcastle"
-        description = "A lovely city in the North-East region of England. 46 miles south of Scotland border."
-        button = "explore"
+      <Productcard
+        image={newcastle}
+        name="Newcastle"
+        description="A lovely city in the North-East region of England. 46 miles south of Scotland border."
+        button="Book Trip"
       />
-      <Productcard 
+      <Productcard
         image={london}
         name="London"
         description="The capital and largest city of both England and the United Kingdom."
-        button="explore"
+        button="Book Trip"
       />
-      <Productcard 
+      <Productcard
         image={dubai}
         name="Dubai"
         description="A major global business hub emphasizing tourism and luxury."
-        button="explore"
+        button="Book Trip"
       />
-      <Productcard 
+      <Productcard
         image={newyork}
         name="New York"
         description="A global center of finance and commerce, culture, technology, entertainment and media."
-        button="explore"
+        button="Book Trip"
       />
-      <Productcard 
+      <Productcard
         image={tokyo}
         name="Tokyo"
         description="An international hub of research and development and an academic center."
-        button="explore"
+        button="Book Trip"
       />
-      <Productcard 
-        image = {berlin}
-        name = "Berlin"
-        description = "This city is composed of forests, parks and gardens, rivers, canals, and lakes."
-        button = "explore"
+      <Productcard
+        image={berlin}
+        name="Berlin"
+        description="This city is composed of forests, parks and gardens, rivers, canals, and lakes."
+        button="Book Trip"
       />
     </div>
-   );
+  );
 }
- 
+
 export default Card;
