@@ -2,7 +2,7 @@ import './App.css';
 import Card from './cardComponent/Card';
 import Navbar from './pages/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home, About, Services, Contact } from "./pages/index";
+import { Home, About, Services, Contacts } from "./pages/index";
 import Banner from './Banner';
 import Footer from './footerComponent/Footer';
 import Form from './registrationForm/Form'
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<><Home /><Banner /><Card /></>} />
         <Route path="/about" element={<><About /></>} />
         <Route path="/services" element={<><Services /></>} />
-        <Route path="/contact" element={<><Contact /></>} />
+        <Route path="/contacts" element={<><Contacts /></>} />
         <Route path="/form" element={<><Form /></>} />
       </Routes>
       <Footer />
