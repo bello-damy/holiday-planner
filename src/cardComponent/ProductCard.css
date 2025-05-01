@@ -35,18 +35,18 @@
     padding: 6px;
     margin: 0;
   }
-
-  .card-para {
-    text-overflow: hidden;
-    overflow: hidden;
-  }
   
   .card-para-container {
-    margin: 14px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     width: 270px;
     height: 55px;
-    overflow: hidden;
-    padding: 0px 10px 0px 25px;
+    padding: 10px 0px 0px 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card-para {
+    padding: 0px 10px 0 10px;
   }
 
   .product {

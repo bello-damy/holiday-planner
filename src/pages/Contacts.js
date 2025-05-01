@@ -1,7 +1,7 @@
 export const Contacts = () => {
     return (
         <div>
-            <h3>Contact</h3>
+            <h2>Contact</h2>
             <ul>
                 <li>Address</li>
                 <li>Phone</li>

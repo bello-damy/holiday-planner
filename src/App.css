@@ -1,12 +1,9 @@
 .App{
-  background-color: #d1dad6;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
   display: flex;
+  background-color: #d1dad6;
+  width: auto;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .product {
@@ -16,3 +13,4 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
