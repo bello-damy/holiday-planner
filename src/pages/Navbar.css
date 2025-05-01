@@ -91,13 +91,14 @@ nav .menu span {
     }
 }
 
-.navbar {
-    width: 90rem;
-}
-
 .logo {
     background-color: black;
     color: #758d80;
     border-radius: 4px;
     padding: 3px;
 }
+
+h2 {
+    padding: 20px 20px 20px 0px;
+}
+
