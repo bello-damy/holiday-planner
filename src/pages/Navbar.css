@@ -24,7 +24,7 @@ nav ul {
     display: flex;
 }
 
-nav ul li {
+ul li {
     list-style: none;
 }
 
@@ -100,5 +100,8 @@ nav .menu span {
 
 h2 {
     padding: 20px 20px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
