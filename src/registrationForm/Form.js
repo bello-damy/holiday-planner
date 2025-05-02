@@ -96,7 +96,7 @@ const Form = () => {
             id="info"
             cols="30"
             rows="10"
-            placeholder="Enter any additional information"
+            placeholder="Enter additional information"
             onChange={(e) => handleChange(e)}>
           </textarea>
 
