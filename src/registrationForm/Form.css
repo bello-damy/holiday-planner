@@ -82,3 +82,27 @@ h1 {
   text-align: center;
   padding: 10px;
 }
+
+@media (max-width: 576px) {
+  .form-container, label, input, select {
+    width: 300px;
+  }
+
+  textarea {
+    width: 282px;
+  }
+}
+
+@media (max-width: 420px) {
+  .form-container, label, input, select {
+    width: 200px;
+  }
+
+  textarea {
+    width: 180px;
+  }
+
+  .banner-container p{
+    padding-left: 20px ;
+  }
+}

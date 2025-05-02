@@ -24,7 +24,7 @@ const Form = () => {
   }
 
   const ResetFunc = () => {
-    setValues({ firstName: '', lastName: '', email: '' })
+    setValues({ firstName: '', lastName: '', email: '', gender: '', contact: '', destination: '', info: '' })
   }
 
   return (
@@ -70,18 +70,19 @@ const Form = () => {
             name="contact"
             required
             onChange={(e) => handleChange(e)}
+            value={values.contact}
           />
 
           <label htmlFor="gender">Gender</label>
           <input type="radio" name="gender"
-            onChange={(e) => handleChange(e)} />Male
+            onChange={(e) => handleChange(e)} value={values.gender} />Male
           <input type="radio" name="gender"
-            onChange={(e) => handleChange(e)} />Female
+            onChange={(e) => handleChange(e)} value={values.gender} />Female
           <input type="radio" name="gender"
-            onChange={(e) => handleChange(e)} />Other
+            onChange={(e) => handleChange(e)} value={values.gender} />Other
 
           <label htmlFor="destination">Destination</label>
-          <select name="destination" id="destination" onChange={(e) => handleChange(e)}>
+          <select name="destination" id="destination" onChange={(e) => handleChange(e)} value={values.destination}>
             <option value="Newcastle">Newcastle</option>
             <option value="London">London</option>
             <option value="Dubai">Dubai</option>
@@ -97,11 +98,12 @@ const Form = () => {
             cols="30"
             rows="10"
             placeholder="Enter additional information"
-            onChange={(e) => handleChange(e)}>
+            onChange={(e) => handleChange(e)}
+            value={values.info}>
           </textarea>
 
-          <button type="button" onClick={ResetFunc}>Reset</button>
           <button type="submit">Submit</button>
+          <button type="button" onClick={ResetFunc}>Reset</button>
         </form>
       </div>
     </div>
