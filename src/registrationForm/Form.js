@@ -1,7 +1,6 @@
 import "./Form.css"
 import { useState } from "react"
 
-
 const Form = () => {
 
   const [values, setValues] = useState({
@@ -15,7 +14,7 @@ const Form = () => {
   })
 
   const handleChange = (e) => {
-    setValues({ ...values, [e.target.name]: [e.target.value] })
+    setValues({ ...values, [e.target.name]: e.target.value })
   }
 
   const handleSubmit = (e) => {
@@ -24,7 +23,15 @@ const Form = () => {
   }
 
   const ResetFunc = () => {
-    setValues({ firstName: '', lastName: '', email: '', gender: '', contact: '', destination: '', info: '' })
+    setValues({
+      firstName: '',
+      lastName: '',
+      email: '',
+      gender: '',
+      contact: '',
+      destination: '',
+      info: ''
+    });
   }
 
   return (
@@ -74,15 +81,20 @@ const Form = () => {
           />
 
           <label htmlFor="gender">Gender</label>
-          <input type="radio" name="gender"
-            onChange={(e) => handleChange(e)} value={values.gender} />Male
-          <input type="radio" name="gender"
-            onChange={(e) => handleChange(e)} value={values.gender} />Female
-          <input type="radio" name="gender"
-            onChange={(e) => handleChange(e)} value={values.gender} />Other
+          <input type="radio" name="gender" value="male" checked={values.gender === 'male'}
+            onChange={handleChange} />Male
+          <input type="radio" name="gender" value="female" checked={values.gender === 'female'}
+            onChange={handleChange} />Female
+          <input type="radio" name="gender" value="other" checked={values.gender === 'other'}
+            onChange={handleChange} />Other
+
+
+
+
 
           <label htmlFor="destination">Destination</label>
           <select name="destination" id="destination" onChange={(e) => handleChange(e)} value={values.destination}>
+            <option value="select">-- Select --</option>
             <option value="Newcastle">Newcastle</option>
             <option value="London">London</option>
             <option value="Dubai">Dubai</option>
