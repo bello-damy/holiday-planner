@@ -1,10 +1,12 @@
 import React from 'react';
 import "./Banner.css"
+import holidayBanner from "./holidayBanner.jpg"
 
+//website banner component
 const Banner = () => {
   return (
     <div className='banner-container'>
-      <h3>Welcome to your favorite Vacation Planner...</h3>
+      <img src={holidayBanner} alt="" className="banner-img"></img>
     </div>
   );
 }

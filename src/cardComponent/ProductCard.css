@@ -5,8 +5,8 @@
     margin: 4rem;
     border-radius: 12px;
     text-align: center;
-    box-shadow: #9e7d5a 8px 0px 18px 2px inset;
-    background-color: #d3bfa0;
+    box-shadow: #1E212B 2px 0px 6px 2px inset;
+    background-color: #a9af9f;
   }
   
   .card-img {
@@ -19,7 +19,7 @@
   .card-btn {
     cursor: pointer;
     border-radius: 6px;
-    background-color: #758d80;
+    background-color: #F8F9FA;
     height: 28px;
     width: 95px;
     margin: 14px 0px 0px 0px;

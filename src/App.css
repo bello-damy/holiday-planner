@@ -1,10 +1,15 @@
 .App{
   display: flex;
-  background-color: #d1dad6;
+  background-color: #F8F9FA;
   width: auto;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh; 
+  color: #1E212B;
 }
+/*  - I made use of flexbox in my app for a one-dimension layout with column. 
+    - The column direction to align my website content from up to down according to my arrangement.
+    - Auto width for good website responsiveness and 100 viewport because I designed the website version first.
+*/
 
 .product {
   display: flex;
@@ -12,5 +17,11 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  color: #1E212B;
 }
-
+/* - I styled the card here using flexbox.
+   - aligned content from left to right to center. 
+   - justify content from up to down center.
+   - flex wrap to make the card move down accordingly and not make the screen width too wide.
+   - column gap for space between the column.
+*/
