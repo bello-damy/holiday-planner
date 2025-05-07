@@ -3,7 +3,7 @@ import Card from './cardComponent/Card';
 import Navbar from './pages/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home, About, Services, Contacts } from "./pages/index";
-import Banner from './Banner';
+import Banner from './banner/Banner';
 import Footer from './footerComponent/Footer';
 import Form from './registrationForm/Form'
 
