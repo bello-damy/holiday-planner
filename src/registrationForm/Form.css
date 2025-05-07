@@ -14,6 +14,7 @@
   transition: transform 0.2s;
   width: 400px;
   margin: auto;
+  color: #1E212B;
 }
 
 label {
@@ -23,7 +24,7 @@ label {
   margin-top: 8px;
   margin-bottom: 5px;
   text-align: left;
-  color: #000;
+  color: #1E212B;
   font-weight: bold;
 }
 
@@ -32,7 +33,7 @@ input {
   width: 400px;
   padding: 8px;
   box-sizing: border-box;
-  border: 1px solid #ddd;
+  border: 1px solid #D1DAD6;
   border-radius: 3px;
   font-size: 12px;
 }
@@ -48,7 +49,7 @@ select {
   margin-bottom: 15px;
   padding: 10px;
   box-sizing: border-box;
-  border: 1px solid #ddd;
+  border: 1px solid #D1DAD6;
   border-radius: 5px;
 }
 
@@ -65,12 +66,13 @@ textarea {
 button {
   cursor: pointer;
   border-radius: 6px;
-  background-color: #758d80;
+  background-color: #D1DAD6;
   height: 28px;
   width: 95px;
   margin: 15px;
   border: none;
   transition: .3s;
+  color: #1E212B;
 }
 
 button:hover {
@@ -81,6 +83,7 @@ h1 {
   font-size: x-large;
   text-align: center;
   padding: 10px;
+  color: #1E212B;
 }
 
 @media (max-width: 576px) {

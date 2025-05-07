@@ -24,3 +24,9 @@ function App() {
 }
 
 export default App;
+
+//Navbar component was added to react app and imported to render on website.
+
+//I implemented react Routes in order to aid the render of my different routes for linking the pages.
+
+//I added the Footer component to the bottom of the page.

@@ -36,7 +36,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div style={{ backgroundColor: "black", height: "1.2px", width: "100%" }} />
+        <div style={{ backgroundColor: "#1E212B", height: "1.2px", width: "100%" }} />
         <div className="row">
           <p className="col-sm">
             &copy;{new Date().getFullYear()} Holiday Planner Inc. | All rights reserved | Terms of service | Privacy
